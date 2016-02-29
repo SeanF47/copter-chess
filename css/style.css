@@ -1,0 +1,105 @@
+.board__square--light {
+	display: block;
+    height: 45px;
+    width: 45px;
+    background-color: #ffd9b3;
+}
+
+.board__square--dark {
+	display: block;
+	height: 45px;
+	width: 45px;
+	background-color: #331a00;
+}
+
+.white {
+	display: block;
+    height: 45px;
+    width: 45px;
+}
+
+.black {
+	display: block;
+	height: 45px;
+	width: 45px;
+}
+
+.white-king {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/270px-Chess_Pieces_Sprite.svg.png) 0 0;
+}
+
+.white-queen {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/270px-Chess_Pieces_Sprite.svg.png) -46px 0;
+}
+
+.white-bishop {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/270px-Chess_Pieces_Sprite.svg.png) -91px 0;
+}
+
+.white-knight {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/270px-Chess_Pieces_Sprite.svg.png) -136px 0;
+}
+
+.white-rook {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/270px-Chess_Pieces_Sprite.svg.png) -181px 0;
+}
+
+.white-pawn {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/270px-Chess_Pieces_Sprite.svg.png) -226px 0;
+}
+
+.black-king {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/270px-Chess_Pieces_Sprite.svg.png) 0 -46px;
+}
+
+.black-queen {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/270px-Chess_Pieces_Sprite.svg.png) -46px -46px;
+}
+
+.black-bishop {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/270px-Chess_Pieces_Sprite.svg.png) -91px -46px;
+}
+
+.black-knight {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/270px-Chess_Pieces_Sprite.svg.png) -136px -46px;
+}
+
+.black-rook {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/270px-Chess_Pieces_Sprite.svg.png) -181px -46px;
+}
+
+.black-pawn {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/270px-Chess_Pieces_Sprite.svg.png) -226px -46px;
+}
+
+.a {
+	display: inline-block;
+}
+
+.b {
+	display: inline-block;
+}
+
+.c {
+	display: inline-block;
+}
+
+.d {
+	display: inline-block;
+}
+
+.e {
+	display: inline-block;
+}
+
+.f {
+	display: inline-block;
+}
+
+.g { 
+    display: inline-block; 
+}
+
+.h {
+	display: inline-block;
+}
