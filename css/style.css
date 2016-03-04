@@ -1,15 +1,16 @@
-.board__square--light {
+.board__square {
 	display: block;
-    height: 45px;
-    width: 45px;
-    background-color: #ffd9b3;
+	float: left;
+	height: 60px;
+	width: 60px;
+}
+
+.board__square--light {
+    background-color: #ffbf80;
 }
 
 .board__square--dark {
-	display: block;
-	height: 45px;
-	width: 45px;
-	background-color: #331a00;
+	background-color: #663300;
 }
 
 .white {
@@ -72,34 +73,11 @@
 	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Chess_Pieces_Sprite.svg/270px-Chess_Pieces_Sprite.svg.png) -226px -46px;
 }
 
-.a {
-	display: inline-block;
+.board__square:nth-child(8n+3) {
+    clear: left;
 }
 
-.b {
-	display: inline-block;
-}
-
-.c {
-	display: inline-block;
-}
-
-.d {
-	display: inline-block;
-}
-
-.e {
-	display: inline-block;
-}
-
-.f {
-	display: inline-block;
-}
-
-.g { 
-    display: inline-block; 
-}
-
-.h {
-	display: inline-block;
-}
+.piece {
+    position: relative;
+    margin-top: 7px;
+    margin-left: 8px;

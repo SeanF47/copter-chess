@@ -8,115 +8,73 @@
 	<script type="text/javascript" src="js/chess.js"></script>
 
 
-	<div class = board></div> <!--The board.-->
+	<div class = board></div> 
 
-    <!--The squares below. empty divs are used for formatting the board.-->
-	<div class = "board__square--light a" id = "a-1"></div>
-	<div class = "board__square--dark a" id = "a-2"></div>
-	<div class = "board__square--light a" id = "a-3"></div>
-	<div class = "board__square--dark a" id = "a-4"></div>
-	<div class = "board__square--light a" id = "a-5"></div>
-	<div class = "board__square--dark a" id = "a-6"></div>
-	<div class = "board__square--light a" id = "a-7"></div>
-	<div class = "board__square--dark a" id = "a-8"></div>
-	<div></div>
-	<div class = "board__square--dark b" id = "b-1"></div>
-	<div class = "board__square--light b" id = "b-2"></div>
-	<div class = "board__square--dark b" id = "b-3"></div>
-	<div class = "board__square--light b" id = "b-4"></div>
-	<div class = "board__square--dark b" id = "b-5"></div>
-	<div class = "board__square--light b" id = "b-6"></div>
-	<div class = "board__square--dark b" id = "b-7"></div>
-	<div class = "board__square--light b" id = "b-8"></div>
-	<div></div>
-	<div class = "board__square--light c" id = "c-1"></div>
-	<div class = "board__square--dark c" id = "c-2"></div>
-	<div class = "board__square--light c" id = "c-3"></div>
-	<div class = "board__square--dark c" id = "c-4"></div>
-	<div class = "board__square--light c" id = "c-5"></div>
-	<div class = "board__square--dark c" id = "c-6"></div>
-	<div class = "board__square--light c" id = "c-7"></div>
-	<div class = "board__square--dark c" id = "c-8"></div>
-	<div></div>
-	<div class = "board__square--dark d" id = "d-1"></div>
-	<div class = "board__square--light d" id = "d-2"></div>
-	<div class = "board__square--dark d" id = "d-3"></div>
-	<div class = "board__square--light d" id = "d-4"></div>
-	<div class = "board__square--dark d" id = "d-5"></div>
-	<div class = "board__square--light d" id = "d-6"></div>
-	<div class = "board__square--dark d" id = "d-7"></div>
-	<div class = "board__square--light d" id = "d-8"></div>
-	<div></div>
-	<div class = "board__square--light e" id = "e-1"></div>
-	<div class = "board__square--dark e" id = "e-2"></div>
-	<div class = "board__square--light e" id = "e-3"></div>
-	<div class = "board__square--dark e" id = "e-4"></div>
-	<div class = "board__square--light e" id = "e-5"></div>
-	<div class = "board__square--dark e" id = "e-6"></div>
-	<div class = "board__square--light e" id = "e-7"></div>
-	<div class = "board__square--dark e" id = "e-8"></div>
-	<div></div>
-	<div class = "board__square--dark f" id = "f-1"></div>
-	<div class = "board__square--light f" id = "f-2"></div>
-	<div class = "board__square--dark f" id = "f-3"></div>
-	<div class = "board__square--light f" id = "f-4"></div>
-	<div class = "board__square--dark f" id = "f-5"></div>
-	<div class = "board__square--light f" id = "f-6"></div>
-	<div class = "board__square--dark f" id = "f-7"></div>
-	<div class = "board__square--light f" id = "f-8"></div>
-	<div></div>
-	<div class = "board__square--light g" id = "g-1"></div>
-	<div class = "board__square--dark g" id = "g-2"></div>
-	<div class = "board__square--light g" id = "g-3"></div>
-	<div class = "board__square--dark g" id = "g-4"></div>
-	<div class = "board__square--light g" id = "g-5"></div>
-	<div class = "board__square--dark g" id = "g-6"></div>
-	<div class = "board__square--light g" id = "g-7"></div>
-	<div class = "board__square--dark g" id = "g-8"></div>
-	<div></div>
-	<div class = "board__square--dark h" id = "h-1"></div>
-	<div class = "board__square--light h" id = "h-2"></div>
-	<div class = "board__square--dark h" id = "h-3"></div>
-	<div class = "board__square--light h" id = "h-4"></div>
-	<div class = "board__square--dark h" id = "h-5"></div>
-	<div class = "board__square--light h" id = "h-6"></div>
-	<div class = "board__square--dark h" id = "h-7"></div>
-	<div class = "board__square--light h" id = "h-8"></div>
-
-
-    <!--The pieces below.-->
-    <div class = "white white-rook" id = "a-1"></div>
-    <div class = "white white-knight" id = "a-2"></div>
-    <div class = "white white-bishop" id = "a-3"></div>
-    <div class = "white white-queen" id = "a-4"></div>
-    <div class = "white white-king" id = "a-5"></div>
-    <div class = "white white-bishop" id = "a-6"></div>
-    <div class = "white white-knight" id = "a-7"></div>
-    <div class = "white white-rook" id = "a-8"></div>
-    <div class = "white white-pawn" id = "b-1"></div>
-    <div class = "white white-pawn" id = "b-2"></div>
-    <div class = "white white-pawn" id = "b-3"></div>
-    <div class = "white white-pawn" id = "b-4"></div>
-    <div class = "white white-pawn" id = "b-5"></div>
-    <div class = "white white-pawn" id = "b-6"></div>
-    <div class = "white white-pawn" id = "b-7"></div>
-    <div class = "white white-pawn" id = "b-8"></div>
-    <div class = "black black-pawn" id = "g-1"></div>
-    <div class = "black black-pawn" id = "g-2"></div>
-    <div class = "black black-pawn" id = "g-3"></div>
-    <div class = "black black-pawn" id = "g-4"></div>
-    <div class = "black black-pawn" id = "g-5"></div>
-    <div class = "black black-pawn" id = "g-6"></div>
-    <div class = "black black-pawn" id = "g-7"></div>
-    <div class = "black black-pawn" id = "g-8"></div>
-    <div class = "black black-rook" id = "h-1"></div>
-    <div class = "black black-knight" id = "h-2"></div>
-    <div class = "black black-bishop" id = "h-3"></div>
-    <div class = "black black-queen" id = "h-4"></div>
-    <div class = "black black-king" id = "h-5"></div>
-    <div class = "black black-bishop" id = "h-6"></div>
-    <div class = "black black-knight" id = "h-7"></div>
-    <div class = "black black-rook" id = "h-8"></div>
+   
+	<div class = "board__square board__square--light" id = "a-1"><div class = "piece black black-rook"></div></div>
+	<div class = "board__square board__square--dark" id = "a-2"><div class = "piece black black-knight"></div></div>
+	<div class = "board__square board__square--light" id = "a-3"><div class = "piece black black-bishop"></div></div>
+	<div class = "board__square board__square--dark" id = "a-4"><div class = "piece black black-queen"></div></div>
+	<div class = "board__square board__square--light" id = "a-5"><div class = "piece black black-king"></div></div>
+	<div class = "board__square board__square--dark" id = "a-6"><div class = "piece black black-bishop"></div></div>
+	<div class = "board__square board__square--light" id = "a-7"><div class = "piece black black-knight"></div></div>
+	<div class = "board__square board__square--dark" id = "a-8"><div class = "piece black black-rook"></div></div>
+	<div class = "board__square board__square--dark" id = "b-1"><div class = "piece black black-pawn"></div></div>
+	<div class = "board__square board__square--light" id = "b-2"><div class = "piece black black-pawn"></div></div>
+	<div class = "board__square board__square--dark" id = "b-3"><div class = "piece black black-pawn"></div></div>
+	<div class = "board__square board__square--light" id = "b-4"><div class = "piece black black-pawn"></div></div>
+	<div class = "board__square board__square--dark" id = "b-5"><div class = "piece black black-pawn"></div></div>
+	<div class = "board__square board__square--light" id = "b-6"><div class = "piece black black-pawn"></div></div>
+	<div class = "board__square board__square--dark" id = "b-7"><div class = "piece black black-pawn"></div></div>
+	<div class = "board__square board__square--light" id = "b-8"><div class = "piece black black-pawn"></div></div>
+	<div class = "board__square board__square--light" id = "c-1"></div>
+	<div class = "board__square board__square--dark" id = "c-2"></div>
+	<div class = "board__square board__square--light" id = "c-3"></div>
+	<div class = "board__square board__square--dark" id = "c-4"></div>
+	<div class = "board__square board__square--light" id = "c-5"></div>
+	<div class = "board__square board__square--dark" id = "c-6"></div>
+	<div class = "board__square board__square--light" id = "c-7"></div>
+	<div class = "board__square board__square--dark" id = "c-8"></div>
+	<div class = "board__square board__square--dark" id = "d-1"></div>
+	<div class = "board__square board__square--light" id = "d-2"></div>
+	<div class = "board__square board__square--dark" id = "d-3"></div>
+	<div class = "board__square board__square--light" id = "d-4"></div>
+	<div class = "board__square board__square--dark" id = "d-5"></div>
+	<div class = "board__square board__square--light" id = "d-6"></div>
+	<div class = "board__square board__square--dark" id = "d-7"></div>
+	<div class = "board__square board__square--light" id = "d-8"></div>
+	<div class = "board__square board__square--light" id = "e-1"></div>
+	<div class = "board__square board__square--dark" id = "e-2"></div>
+	<div class = "board__square board__square--light" id = "e-3"></div>
+	<div class = "board__square board__square--dark" id = "e-4"></div>
+	<div class = "board__square board__square--light" id = "e-5"></div>
+	<div class = "board__square board__square--dark" id = "e-6"></div>
+	<div class = "board__square board__square--light" id = "e-7"></div>
+	<div class = "board__square board__square--dark" id = "e-8"></div>
+	<div class = "board__square board__square--dark" id = "f-1"></div>
+	<div class = "board__square board__square--light" id = "f-2"></div>
+	<div class = "board__square board__square--dark" id = "f-3"></div>
+	<div class = "board__square board__square--light" id = "f-4"></div>
+	<div class = "board__square board__square--dark" id = "f-5"></div>
+	<div class = "board__square board__square--light" id = "f-6"></div>
+	<div class = "board__square board__square--dark" id = "f-7"></div>
+	<div class = "board__square board__square--light" id = "f-8"></div>
+	<div class = "board__square board__square--light" id = "g-1"><div class = "piece white white-pawn"></div></div>
+	<div class = "board__square board__square--dark" id = "g-2"><div class = "piece white white-pawn"></div></div>
+	<div class = "board__square board__square--light" id = "g-3"><div class = "piece white white-pawn"></div></div>
+	<div class = "board__square board__square--dark" id = "g-4"><div class = "piece white white-pawn"></div></div>
+	<div class = "board__square board__square--light" id = "g-5"><div class = "piece white white-pawn"></div></div>
+	<div class = "board__square board__square--dark" id = "g-6"><div class = "piece white white-pawn"></div></div>
+	<div class = "board__square board__square--light" id = "g-7"><div class = "piece white white-pawn"></div></div>
+	<div class = "board__square board__square--dark" id = "g-8"><div class = "piece white white-pawn"></div></div>
+	<div class = "board__square board__square--dark" id = "h-1"><div class = "piece white white-rook"></div></div>
+	<div class = "board__square board__square--light" id = "h-2"><div class = "piece white white-knight"></div></div>
+	<div class = "board__square board__square--dark" id = "h-3"><div class = "piece white white-bishop"></div></div>
+	<div class = "board__square board__square--light" id = "h-4"><div class = "piece white white-queen"></div></div>
+	<div class = "board__square board__square--dark" id = "h-5"><div class = "piece white white-king"></div></div>
+	<div class = "board__square board__square--light" id = "h-6"><div class = "piece white white-bishop"></div></div>
+	<div class = "board__square board__square--dark" id = "h-7"><div class = "piece white white-knight"></div></div>
+	<div class = "board__square board__square--light" id = "h-8"><div class = "piece white white-rook"></div></div>
 
 
 
